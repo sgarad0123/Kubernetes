@@ -1,0 +1,6 @@
+- task: Kubernetes@1
+  inputs:
+    connectionType: 'Kubernetes Service Connection'
+    kubernetesServiceEndpoint: 'Mycluster1232'
+    command: 'get'
+    arguments: 'pods'
