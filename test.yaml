@@ -1,9 +1,6 @@
 pool:
   name: ADO
   vmImage: 'windows-latest'
-  demands: 
-    - Agent.Name -equals ADO2 # Change to your agent pool
-    
 - task: Kubernetes@1
   inputs:
     connectionType: 'Kubernetes Service Connection'
