@@ -1,6 +1,6 @@
 pool:
-  name: ADO
-  vmImage: 'windows-latest'
+  name: AKS
+  vmImage: 'ubuntu-latest'
 
 steps:
   - task: Kubernetes@1
